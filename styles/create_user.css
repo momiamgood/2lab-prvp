@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn {
+    background: #8585cc;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
